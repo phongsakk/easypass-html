@@ -8,6 +8,7 @@
 
 <body>
 
+
     <div class="body-bg-login">
 
         <div class="navbar-login">
@@ -20,14 +21,15 @@
 
         <div class="wrap-content-middle">
             <div class="card-login check-tel">
-                <a href="#">
+                <a href="otp.php">
                     <p class="title">เบอร์โทรศัพท์</p>
                 </a>
-                <input type="" class="form-control form-check-tel" id="" aria-describedby="">
-                <button type="button" class="btn btn-login">ตกลง</button>
+                <input type="" class="form-control form-check-tel" id="" aria-describedby="" placeholder="0000-0000-0000">
+                <a href="otp.php"><button type="button" class="btn btn-login">ตกลง</button></a>
             </div>
         </div>
     </div>
+</div>
 
 
 </body>

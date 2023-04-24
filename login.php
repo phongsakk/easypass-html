@@ -11,6 +11,7 @@
 </style>
 
 <body>
+
     <div class="body-bg-login">
 
         <div class="navbar-login">
@@ -23,15 +24,16 @@
 
         <div class="wrap-content-middle">
             <div class="card-login">
-                <a href="#">
+                <a href="check-tel.php">
                     <p class="title">เข้าสู่ระบบ</p>
                 </a>
                 <p>กรุณากรอก E-mail หรือ บัตรประจำตัวประชาชน 13 หลัก </p>
                 <input type="" class="form-control form-cus" id="" aria-describedby="">
-                <button type="button" class="btn btn-login">ตรวจสอบ</button>
+                <a href="check-tel.php"><button type="button" class="btn btn-login">ตรวจสอบ</button></a>
             </div>
         </div>
     </div>
+
 
 
 </body>

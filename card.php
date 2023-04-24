@@ -1,11 +1,33 @@
-<?php include 'assets/header.php';?>
+<?php include 'assets/header.php'; ?>
 
 
 
 <body>
 
-    <div class="card-reward">
+    <div class="main-content">
+    <div class="card">
+        <div class="container-fluid">
+            <div class="navbar-login">
+                <div class="navbar-search">
+                    <div class="group">
+                        <a href="">
+                            <i class="bi bi-justify"></i>
+                        </a>
+                        <span>
+                            สิทธิพิเศษ
+                        </span>
+                        <i class="bi bi-arrow-counterclockwise"></i>
+                    </div>
 
+                    <div id="search-allcard" style="display:none;">
+                        <input type="text" class="form-control" id="" aria-describedby="emailHelp">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card-reward">
         <div class="wrap">
             <div class="my-card">
                 <div class="img">
@@ -96,34 +118,141 @@
                         <span class="allreward">รางวัลทั้งหมด</span>
                         <span class="all">ทั้งหมด</span>
                     </div>
-
                 </div>
-                <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">...</div>
-                <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">...</div>
+                <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                    <div class="head">
+                        <span class="allreward">รางวัลทั้งหมด</span>
+                        <span class="all">ทั้งหมด</span>
+                    </div>
+
+                    <div class="slide-card">
+                        <div class="owl-carousel owl-theme">
+                            <div class="item">
+                                <div class="card-item">
+                                    <div class="img">
+                                        <img src="assets/img/slide1.png" alt="" srcset="">
+                                    </div>
+                                    <div class="card-detail">
+                                        <p>แลกรับฟรี! Auntie Anne’s Original Pretzel </p>
+                                        <p>รับ 1 ชิ้น มูลค่า 35 บาท </p>
+                                        <p>หมดเขต 25 มิถุนายน 2566</p>
+                                        <a href="change-reward.php" class="btn btn-red">300 คะแนน</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="card-item">
+                                    <div class="img">
+                                        <img src="assets/img/slide1.png" alt="" srcset="">
+                                    </div>
+                                    <div class="card-detail">
+                                        <p>แลกรับฟรี! Auntie Anne’s Original Pretzel </p>
+                                        <p>รับ 1 ชิ้น มูลค่า 35 บาท </p>
+                                        <p>หมดเขต 25 มิถุนายน 2566</p>
+                                        <a href="change-reward.php" class="btn btn-red">300 คะแนน</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="card-item">
+                                    <div class="img">
+                                        <img src="assets/img/slide1.png" alt="" srcset="">
+                                    </div>
+                                    <div class="card-detail">
+                                        <p>แลกรับฟรี! Auntie Anne’s Original Pretzel </p>
+                                        <p>รับ 1 ชิ้น มูลค่า 35 บาท </p>
+                                        <p>หมดเขต 25 มิถุนายน 2566</p>
+                                        <a href="change-reward.php" class="btn btn-red">300 คะแนน</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="head">
+                        <span class="allreward">รางวัลทั้งหมด</span>
+                        <span class="all">ทั้งหมด</span>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                    <div class="head">
+                        <span class="allreward">รางวัลทั้งหมด</span>
+                        <span class="all">ทั้งหมด</span>
+                    </div>
+
+                    <div class="slide-card">
+                        <div class="owl-carousel owl-theme">
+                            <div class="item">
+                                <div class="card-item">
+                                    <div class="img">
+                                        <img src="assets/img/slide1.png" alt="" srcset="">
+                                    </div>
+                                    <div class="card-detail">
+                                        <p>แลกรับฟรี! Auntie Anne’s Original Pretzel </p>
+                                        <p>รับ 1 ชิ้น มูลค่า 35 บาท </p>
+                                        <p>หมดเขต 25 มิถุนายน 2566</p>
+                                        <a href="change-reward.php" class="btn btn-red">300 คะแนน</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="card-item">
+                                    <div class="img">
+                                        <img src="assets/img/slide1.png" alt="" srcset="">
+                                    </div>
+                                    <div class="card-detail">
+                                        <p>แลกรับฟรี! Auntie Anne’s Original Pretzel </p>
+                                        <p>รับ 1 ชิ้น มูลค่า 35 บาท </p>
+                                        <p>หมดเขต 25 มิถุนายน 2566</p>
+                                        <a href="change-reward.php" class="btn btn-red">300 คะแนน</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="card-item">
+                                    <div class="img">
+                                        <img src="assets/img/slide1.png" alt="" srcset="">
+                                    </div>
+                                    <div class="card-detail">
+                                        <p>แลกรับฟรี! Auntie Anne’s Original Pretzel </p>
+                                        <p>รับ 1 ชิ้น มูลค่า 35 บาท </p>
+                                        <p>หมดเขต 25 มิถุนายน 2566</p>
+                                        <a href="change-reward.php" class="btn btn-red">300 คะแนน</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="head">
+                        <span class="allreward">รางวัลทั้งหมด</span>
+                        <span class="all">ทั้งหมด</span>
+                    </div>
+                </div>
             </div>
         </div>
 
     </div>
+    </div>
 
-    <?php include 'assets/footer.php';?>
+    <?php include 'assets/footer.php'; ?>
 
 </body>
 
 <script>
-$('.owl-carousel').owlCarousel({
-    loop: true,
-    margin: 10,
-    nav: true,
-    responsive: {
-        0: {
-            items: 2
-        },
-        600: {
-            items: 2
-        },
-        1000: {
-            items: 5
+    $('.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        responsive: {
+            0: {
+                items: 2
+            },
+            600: {
+                items: 2
+            },
+            1000: {
+                items: 5
+            }
         }
-    }
-})
+    })
 </script>

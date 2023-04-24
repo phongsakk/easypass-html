@@ -2,6 +2,7 @@
 
 <body>
 
+
     <div class="term">
         <div class="wrap">
             <div class="head">
@@ -35,10 +36,11 @@
 
             <div class="d-flex justify-content-center aling-item-center mt-5">
                 <a href="" class="btn btn-white">ไม่ตกลง</a>
-                <a href="" class="btn btn-skyblue mx-2">ตกลง</a>
+                <a href="login.php" class="btn btn-skyblue mx-2">ตกลง</a>
             </div>
         </div>
     </div>
+   
 
 
 </body>

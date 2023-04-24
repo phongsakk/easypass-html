@@ -7,6 +7,7 @@
 
 <body>
 
+
     <div class="body-bg-login">
 
         <div class="navbar-login">
@@ -20,9 +21,10 @@
         <div class="wrap-content-middle">
             <div class="card-login otp">
                 <a href="#">
-                    <p class="title">เข้าสู่ระบบ</p>
+                    <p class="title">ยืนยันรหัส OTP</p>
                 </a>
-                <p>รหัสยืนยัน OTP ได้ส่งไปที่เบอร์โทรศัพท์ 000-0000-0000 ของคุณแล้ว </p>
+                <p>รหัสยืนยัน OTP ได้ส่งไปที่</p>
+                <p>เบอร์โทรศัพท์ 000-0000-0000 ของคุณแล้ว </p>
                 <p>รหัสอ้างอิง : FKLI4A </p>
 
                 <div class="otp">
@@ -42,7 +44,7 @@
 
                 <div class="re-otp">
                     <div class="wrap">
-                        <span>ขอรหัส OTP อีกครั้ง</span>
+                        <u><span>ขอรหัส OTP อีกครั้ง</span></u>
                         <span><i class="bi bi-arrow-clockwise"></i>0.58 วินาที</span>
                     </div>
                 </div>
@@ -50,6 +52,7 @@
             </div>
         </div>
     </div>
+
 
 
 

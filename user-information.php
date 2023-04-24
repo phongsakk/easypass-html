@@ -1,6 +1,7 @@
 <?php include 'assets/header.php';?>
 
 <body>
+<div class="main-content">
     <div class="user-information">
         <p class="title-content">ข้อมูลสมาชิก</p>
         <div class="wrap">
@@ -29,9 +30,10 @@
         </div>
         <div class="btn-group">
             <button type="button" class="btn btn-login">แก้ไขข้อมูลสมาชิก</button>
-            <button type="button" class="btn btn-red">ยกเลิกการใช้งาน</button>
+            <a href="cancle-user.php"><button type="button" class="btn btn-red">ยกเลิกการใช้งาน</button></a>
         </div>
     </div>
+</div>
 
 </body>
 

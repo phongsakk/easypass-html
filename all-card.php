@@ -1,9 +1,8 @@
-<?php include 'assets/header.php';?>
+<?php include 'assets/header.php'; ?>
 
 <body>
-
-    <div class="modal fade modal-expire" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
+   <div class="main-content">
+    <div class="modal fade modal-expire" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
@@ -19,8 +18,7 @@
                                 </div>
 
                                 <div class="score">
-                                    <button type="button" class="btn btn-expire" data-bs-dismiss="modal"><i
-                                            class="bi bi-credit-card-2-back"></i>300
+                                    <button type="button" class="btn btn-expire" data-bs-dismiss="modal"><i class="bi bi-credit-card-2-back"></i>300
                                         คะแนน</button>
                                 </div>
                             </div>
@@ -36,8 +34,7 @@
                                 </div>
 
                                 <div class="score">
-                                    <button type="button" class="btn btn-expire" data-bs-dismiss="modal"><i
-                                            class="bi bi-credit-card-2-back"></i>300
+                                    <button type="button" class="btn btn-expire" data-bs-dismiss="modal"><i class="bi bi-credit-card-2-back"></i>300
                                         คะแนน</button>
                                 </div>
                             </div>
@@ -108,7 +105,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="item">
                     <div class="wrap">
                         <div class="image">
@@ -127,7 +123,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="item">
                     <div class="wrap">
                         <div class="image">
@@ -191,11 +186,12 @@
         </div>
     </div>
 
-    <?php include 'assets/footer.php';?>
+    <?php include 'assets/footer.php'; ?>
+   </div>
 </body>
 
 <script>
-function myFunction() {
-    document.getElementById("search-allcard").style.display = "block";
-}
+    function myFunction() {
+        document.getElementById("search-allcard").style.display = "block";
+    }
 </script>

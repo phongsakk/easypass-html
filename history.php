@@ -3,6 +3,7 @@
 
 
 <body>
+<div class="main-content">
 
     <div class="history">
         <div class="text-center">
@@ -243,6 +244,7 @@
     </div>
 
     <?php include 'assets/footer.php';?>
+</div>
 
 </body>
 
